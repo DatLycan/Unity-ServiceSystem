@@ -1,0 +1,14 @@
+{
+    "name": "com.datlycan.servicesystem",
+    "version": "1.0.0",
+    "displayName": "Service System",
+    "description": "Service framework for creating and managing various services during runtime.",
+    "unity": "2022.3",  
+    "gitDependencies": {
+      "com.datlycan.utils": "https://github.com/DatLycan/Unity-Utils.git"
+    },
+    "author": {
+      "name": "DatLycan",
+      "url": "https://github.com/DatLycan"
+    }
+}
