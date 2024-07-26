@@ -1,6 +1,6 @@
 {
     "name": "com.datlycan.servicesystem",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "displayName": "Service System",
     "description": "Service System framework for creating and managing various services during runtime.",
     "unity": "2022.3",  

@@ -26,6 +26,11 @@ namespace DatLycan.Packages.ServiceSystem {
         void OnStop();
         
         /// <summary>
+        /// Gets called when the service pauses or resumes.
+        /// </summary>
+        void OnPause(bool state);
+        
+        /// <summary>
         /// Updates the service. This method is typically called once per frame.
         /// </summary>
         void Update();

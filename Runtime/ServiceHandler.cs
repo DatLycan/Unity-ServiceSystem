@@ -182,8 +182,10 @@ namespace DatLycan.Packages.ServiceSystem {
                 return;
             }
             
-            Debug.Log($"Paused service [{entry.Service}]: {state}");
+            entry.Service.OnPause(state);
             entry.IsRunning = !state;
+            
+            Debug.Log($"Paused service [{entry.Service}]: {state}");
         }
         
         private static T HandleLocate<T>(Type type) where T : class, IService {
